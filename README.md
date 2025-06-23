@@ -49,19 +49,19 @@ We recommend using cmake with graphic interface if you are not familiar with com
 
 * to get it: run `sudo apt install cmake-qt-gui`
 
-* then open the app:
+* then open the app: `cmake-gui'
 
-* where is the source code: $PATH TO REPOSITORY$
+* where is the source code: /home/manhhv/AICode/agri-fly
 
-* where to build the binaries: $PATH TO REPOSITORY$/Build (this will ask to make new directory and say yes)
+* where to build the binaries: /home/manhhv/AICode/agri-fly/Build (this will ask to make new directory and say yes)
 
-* Click Configure, then: 
+* Click `Configure`, then: 
 
-* Select "Unix makefiles" and "Use default native compilers" 
+* Select `Unix makefiles` and `Use default native compilers`
 
-* Click configure until the red items disappear 
+* Click `Configure' until the red items disappear 
 
-* Click Generate 
+* Click `Generate` 
 
 Now the code is ready to be compiled.
 
