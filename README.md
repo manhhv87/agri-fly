@@ -49,21 +49,21 @@ We recommend using cmake with graphic interface if you are not familiar with com
 
 * to get it: run `sudo apt install cmake-qt-gui`
 
-* then open the app: `cmake-gui'
+* then open the app: `cmake-gui`
 
-* where is the source code: /home/manhhv/AICode/agri-fly
+* where is the source code: `/home/manhhv/AICode/agri-fly`
 
-* where to build the binaries: /home/manhhv/AICode/agri-fly/Build (this will ask to make new directory and say yes)
+* where to build the binaries: `/home/manhhv/AICode/agri-fly/Build` (this will ask to make new directory and say yes)
 
 * Click `Configure`, then: 
 
 * Select `Unix makefiles` and `Use default native compilers`
 
-* Click `Configure' until the red items disappear 
+* Click `Configure` until the red items disappear 
 
 * Click `Generate`
   
-* `cd agri-fly/Build' and `make'
+* `cd agri-fly/Build` and `make`
 
 # Quick Startup Guide For Single-thread Simulation
 
