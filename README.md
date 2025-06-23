@@ -61,9 +61,9 @@ We recommend using cmake with graphic interface if you are not familiar with com
 
 * Click `Configure' until the red items disappear 
 
-* Click `Generate` 
-
-Now the code is ready to be compiled.
+* Click `Generate`
+  
+* `cd agri-fly/Build' and `make'
 
 # Quick Startup Guide For Single-thread Simulation
 
