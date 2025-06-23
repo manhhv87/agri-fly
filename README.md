@@ -33,7 +33,7 @@ Go to the directory where you want to install the code.
 
 Then navigate to the folder containing Unity wrapper code. 
 
-`cd AirSim/Unity`
+`cd AIFS_AirSim/Unity`
 
 `./build.sh`
 
