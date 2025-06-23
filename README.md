@@ -69,11 +69,11 @@ We recommend using cmake with graphic interface if you are not familiar with com
 
 Notice that the single-thread simulation is extremely slow and we recommend to use it only as a tool to check if code installation is successful. We recommend to use ROS Simulator as basis for developement. 
 
-* Start Unity Hub, import the argricultral world via selecting the folder 'AIFS_AirSim\Unity\UnityDemo', and then hit the OK button.
+* Start Unity Hub, import the argricultral world via selecting the folder `AIFS_AirSim\Unity\UnityDemo`, and then hit the `OK` button.
 
 * Click on the new project which showed up in the Unity Hub menu to open it in Unity.
 
-* In the bottom pane, click on Projects->Assets->Scenes. Then, double-click on SimModeSelector. Choose the Drone-Demo.
+* In the bottom pane, click on `Projects->Assets->Scenes.` Then, double-click on `SimModeSelector`. Choose the `Drone-Demo`.
 
 * Hit the play button to start the simulation (and hit play again to stop the simulation. 
 
