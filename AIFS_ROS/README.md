@@ -90,7 +90,7 @@ To make sure your workspace is properly overlayed by the setup script, make sure
   * `$ echo $ROS_PACKAGE_PATH`
 
 By echo you have to see something like:
-`/home/your_username/catkin_ws/src/hiperlab_common:/home/your_username/catkin_ws/src/hiperlab_components:/home/your_username/catkin_ws/src/hiperlab_rostools:/home/your_username/catkin_ws/src/hiperlab_hardware:/opt/ros/kinetic/share`
+`/home/manhhv/catkin_ws/src/hiperlab_common:/home/manhhv/catkin_ws/src/hiperlab_components:/home/manhhv/catkin_ws/src/hiperlab_rostools:/home/manhhv/catkin_ws/src/hiperlab_hardware:/opt/ros/kinetic/share`
 
 
 
