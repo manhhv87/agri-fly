@@ -8,9 +8,38 @@ For Ubuntu 20.04 LTS, [ROS-noetic](http://wiki.ros.org/noetic/Installation/Ubunt
 `sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu focal main" > /etc/apt/sources.list.d/ros-noetic.list'`
 ## Set up your keys
 `sudo apt update` 
+ 
  `sudo apt install curl -y`
+ 
  `curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -`
 
+## Update your package index
+`sudo apt update`
+
+## Install ROS Noetic (Desktop-Full version)
+`sudo apt install ros-noetic-desktop-full -y`
+
+## Install rosdep
+`sudo apt install python3-rosdep -y`
+
+## Install rosdep
+`sudo rosdep init`
+
+`rosdep update`
+
+## Environment Setup
+`echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc`
+
+`source ~/.bashrc`
+
+## Install rosinstall tools (optional)
+`sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y'
+
+## Test ROS Installation
+`roscore`
+
+In another terminal:
+`rosrun turtlesim turtlesim_node`
 
 
 # 2-Setting up your workspace
