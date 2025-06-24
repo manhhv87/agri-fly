@@ -4,8 +4,14 @@ If you haven't already installed ROS instructions listed here:
 
 For Ubuntu 20.04 LTS, [ROS-noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) is official supported version
 
-## 1. Set up your sources.list
+## Set up your sources.list
 `sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu focal main" > /etc/apt/sources.list.d/ros-noetic.list'`
+## Set up your keys
+`sudo apt update
+ sudo apt install curl -y
+ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -`
+
+
 
 # 2-Setting up your workspace
 We suggest use python catkin tools to build ROS projects. Make sure you have the python catkin tools installed:
