@@ -82,10 +82,10 @@ i.e.:
 # 5-Build the workspace
 Finally, run `sh makeProjects_AIFS.sh` in `~/catkin_ws` folder
 
-Before continuing source your new setup.*sh file:
+Before continuing source your new `setup.*sh` file:
   * `source devel/setup.bash`
 
-To make sure your workspace is properly overlayed by the setup script, make sure ROS_PACKAGE_PATH environment variable includes the directory you're in.
+To make sure your workspace is properly overlayed by the setup script, make sure `ROS_PACKAGE_PATH` environment variable includes the directory you're in.
   * `$ echo $ROS_PACKAGE_PATH`
 
 By echo you have to see something like:
