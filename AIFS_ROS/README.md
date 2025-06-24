@@ -39,6 +39,7 @@ For Ubuntu 20.04 LTS, [ROS-noetic](http://wiki.ros.org/noetic/Installation/Ubunt
 `roscore`
 
 In another terminal:
+
 `rosrun turtlesim turtlesim_node`
 
 
