@@ -69,8 +69,8 @@ Now `cd` into your ROS ws folder, and make the needed symlinks between the simul
 * `ln -s ~/AICode/agri-fly/AIFS_ROS/makeProjects_AIFS.sh `
 
 Then we need to link the source files for common & components:
-* `ln -s {Path to your project folder}/Common/ src/hiperlab_common/src`
-* `ln -s {Path to your project folder}/Components/ src/hiperlab_components/src`
+* `ln -s ~/AICode/agri-fly/Common/ src/hiperlab_common/src`
+* `ln -s ~/AICode/agri-fly/Components/ src/hiperlab_components/src`
 
 # 4-Setup AirSim Root in buildfile
 In AIFS_ROS/hiperlab_rostools.CMakeLists.txt,
