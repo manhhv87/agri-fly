@@ -73,10 +73,10 @@ Then we need to link the source files for common & components:
 * `ln -s ~/AICode/agri-fly/Components/ src/hiperlab_components/src`
 
 # 4-Setup AirSim Root in buildfile
-In AIFS_ROS/hiperlab_rostools.CMakeLists.txt,
-Set the AIRSIM_ROOT to the folder you store airsim on your computer. 
+In `AIFS_ROS/hiperlab_rostools/CMakeLists.txt`,
+Set the `AIRSIM_ROOT` to the folder you store airsim on your computer. 
 i.e.:
-* `set(AIRSIM_ROOT {Path to your project folder}/AIFS_AirSim)`
+* `set(AIRSIM_ROOT /home/manhhv87/AICode/agri-fly/AIFS_AirSim)`
 
 
 # 5-Build the workspace
