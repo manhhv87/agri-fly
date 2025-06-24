@@ -129,7 +129,7 @@ By echo you have to see something like:
   
  * Point to the trajctory file location in `agrifly.launch` by replacing `"/default/path/to/trajectory.txt"`.
  
- * Start the simulator by running `roslaunch hiperlab_rostools agrifly.launch`. You will be prompted to hit 's' button on the keyboard twice to start the flight controller. You should now see the drone flying through the scene following the defined trajectory.
+ * Start the simulator by running `roslaunch hiperlab_rostools agrifly.launch`. You will be prompted to hit `s` button on the keyboard twice to start the flight controller. You should now see the drone flying through the scene following the defined trajectory.
  
  * To end the simulation, kill the ROS notes from the terminal before you stop the Unity simulation.
 
