@@ -42,7 +42,7 @@ In another terminal:
 
 # 2-Setting up your workspace
 We suggest use python catkin tools to build ROS projects. Make sure you have the python catkin tools installed:
-  * `sudo apt install python-catkin-tools`
+  * `sudo apt install python3-catkin-tools`
   
 For more information you can see: http://catkin-tools.readthedocs.io/en/latest/installing.html
 
