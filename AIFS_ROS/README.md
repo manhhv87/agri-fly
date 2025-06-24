@@ -135,7 +135,7 @@ By echo you have to see something like:
 
 # 3- Record bag files
 * Copy and paste `rosbag_record_airsim.sh` to places you want to record data at.
-* Run 'rosbag_record_airsim.sh' to record ROS bag files.
+* Run `rosbag_record_airsim.sh` to record ROS bag files.
 
 # Running the simulation with seperate ROS nodes
 Instead of using the launch file, you may also start each node seperately.
@@ -150,7 +150,7 @@ Instead of using the launch file, you may also start each node seperately.
 
 * Start the RAPPIDS planner and controller node `rosrun hiperlab_rostools quad_rappids_planner_controller 1`. Again, change `1` to your vehicle IDs if you are running with a different vehicle.   
 
-* Following the instruction given by the RAPPIDS node and hit 's' button on the keyboard multiple times to start the flight controller.
+* Following the instruction given by the RAPPIDS node and hit `s` button on the keyboard multiple times to start the flight controller.
 
 * To end the simulation, kill the ROS nodes (in the same order you ran them) first before you stop the Unity simulated world.
 
