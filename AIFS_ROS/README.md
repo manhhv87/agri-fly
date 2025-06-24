@@ -80,7 +80,7 @@ i.e.:
 
 
 # 5-Build the workspace
-Finally, run `sh makeProjects_AIFS.sh`
+Finally, run `sh makeProjects_AIFS.sh` in `~/catkin_ws` folder
 
 Before continuing source your new setup.*sh file:
   * `source devel/setup.bash`
