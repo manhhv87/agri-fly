@@ -98,18 +98,18 @@ By echo you have to see something like:
 # Quick startup guide
 
 # 1- Start the simulator in Unity
-* Start Unity Hub, import the argricultral world via selecting the folder 'AIFS_AirSim\Unity\UnityDemo', and then hit the OK button.
+* Start Unity Hub, import the argricultral world via selecting the folder `AIFS_AirSim\Unity\UnityDemo`, and then hit the `OK` button.
 
 * Click on the new project which showed up in the Unity Hub menu to open it in Unity.
 
-* In the bottom pane, click on Projects->Assets->Scenes. Then, double-click on SimModeSelector.
+* In the bottom pane, click on `Projects->Assets->Scenes`. Then, double-click on `SimModeSelector`.
 
 * Hit the play button to start.
 
 * Select the scene you would like the drone to fly in. At this point you should see the drone droping and landing on the ground.
 
 # 2- Run the ROS simulator
-* Locate the launch file located at hiperlab_rostools->launch->agrifly.launch.
+* Locate the launch file located at `hiperlab_rostools->launch->agrifly.launch`.
  
 * Create a `trajectory.txt` file that contains your desired trajectory setpoints with the following format:
   ```
@@ -118,7 +118,7 @@ By echo you have to see something like:
   x3,y3,z3
   ...
   ```
-  Where X points forward, Y left, and Z up. For example, the file content should look like:
+  Where `X` points forward, `Y` left, and `Z` up. For example, the file content should look like:
   ```
   0.0,0.0,4.0
   10.0,0.0,4.0
