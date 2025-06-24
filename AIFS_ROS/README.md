@@ -104,7 +104,7 @@ By echo you have to see something like:
 
 * In the bottom pane, click on `Projects->Assets->Scenes`. Then, double-click on `SimModeSelector`.
 
-* Hit the play button to start.
+* Hit the `Play` button to start.
 
 * Select the scene you would like the drone to fly in. At this point you should see the drone droping and landing on the ground.
 
