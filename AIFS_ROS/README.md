@@ -127,7 +127,7 @@ By echo you have to see something like:
   ```
   for the drone to fly a straight line trajectory at 4 meters.
   
- * Point to the trajctory file location in `agrifly.launch` by replacing `"/default/path/to/trajectory.txt"`.
+ * Point to the trajectory file location in `agrifly.launch` by replacing `"/default/path/to/trajectory.txt"`.
  
  * Start the simulator by running `roslaunch hiperlab_rostools agrifly.launch`. You will be prompted to hit `s` button on the keyboard twice to start the flight controller. You should now see the drone flying through the scene following the defined trajectory.
  
