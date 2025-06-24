@@ -5,7 +5,7 @@ If you haven't already installed ROS instructions listed here:
 For Ubuntu 20.04 LTS, [ROS-noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) is official supported version
 
 ## Set up your sources.list
-`sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu focal main" > /etc/apt/sources.list.d/ros-noetic.list'`
+* `sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu focal main" > /etc/apt/sources.list.d/ros-noetic.list'`
 ## Set up your keys
 `sudo apt update` 
  
