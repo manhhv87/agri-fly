@@ -31,7 +31,7 @@ For Ubuntu 20.04 LTS, [ROS-noetic](http://wiki.ros.org/noetic/Installation/Ubunt
 `source ~/.bashrc`
 
 ## Install rosinstall tools (optional)
-* `sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y'
+* `sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y`
 
 ## Test ROS Installation
 * `roscore`
